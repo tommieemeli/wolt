@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.jumbotron {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/efd4c623947537.5632b84abb706.jpg');
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+
