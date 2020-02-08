@@ -23,7 +23,7 @@ class PostList extends Component {
       return (
         <div>
           <button className="button" onClick={()=>this.onSort('asc')}>Aakkosittain</button>
-          <button className="button" onClick={()=>this.onSort('Desc')}>Aakkoset väärinpäin</button>
+          <button className="button" onClick={()=>this.onSort('desc')}>Aakkoset väärinpäin</button>
           {
             sorted.map((r, i) => {
               return (
