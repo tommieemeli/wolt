@@ -31,7 +31,7 @@ class PostList extends Component {
                 <Card style={{ width: '400px' }}>
                   <Card.Img variant="top" src={r.image} />
                   <h1>{r.name}</h1>
-                  <br></br>
+                  <p>{r.blurhash}</p>
                   <p>{r.description} !</p>
                 </Card>
                 </div>
