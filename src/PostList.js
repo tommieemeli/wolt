@@ -17,8 +17,8 @@ class PostList extends Component {
       
       const sorted = data.restaurants.sort( (a, b) =>{
         
-        const isReversed = (sortType === 'asc') ? 1 : -1;
-        return isReversed * a.name.localeCompare(b.name)
+      const isReversed = (sortType === 'asc') ? 1 : -1;
+      return isReversed * a.name.localeCompare(b.name)
       });
       return (
         <div>
